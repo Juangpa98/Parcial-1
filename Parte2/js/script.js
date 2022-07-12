@@ -17,7 +17,8 @@ let  min = document.getElementById("btn_mayusculas")
 min.addEventListener("click", Conv)
 function Conv(event){
   
-
+  event.preventDefault()
+      
   let conv = document.getElementById("txt_may").value
 
   let arr = conv.split(',')
